@@ -393,7 +393,7 @@ EOT;
         if (\$isCacheBuffer) {
             \$this->$variableName = $$variableName;
         }
-        return \$user;
+        return $$variableName;
     }
             
 EOT;
